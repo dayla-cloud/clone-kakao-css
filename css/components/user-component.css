@@ -1,0 +1,44 @@
+.user-component {
+  dispaly: flex;
+}
+
+.user-component {
+  justify-content: space-between;
+}
+
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 43%;
+  margin-right: 20px;
+}
+
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+}
+
+.user-component__name {
+  font-weight: 600;
+  font-size: 21px;
+}
+
+.user-component__subtitle {
+  margin-top: 5px;
+  color: grey;
+}
+
+.user-component__name--not-bold {
+  font-weight: 400;
+}

@@ -1,8 +1,12 @@
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
 .screen-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: var(--horizontal-space);
   padding-top: 50px;
 }
 

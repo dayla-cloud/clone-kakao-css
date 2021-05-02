@@ -3,16 +3,13 @@
 
 /* components */
 @import "components/status-bar.css";
+@import "components/user-component.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
 
 /* screen */
 @import "screen/login.css";
 @import "screen/friends.css";
-
-/* nav */
-@import "components/nav-bar.css";
-
-/* header */
-@import "components/screen-header.css";
 
 body {
   color: #2e363e;
