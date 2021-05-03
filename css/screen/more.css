@@ -1,0 +1,36 @@
+.more-suggetions {
+  border-top: var(--main-border);
+  padding: 15px 0;
+}
+
+.more-suggetions__title {
+  padding: 10px 0px;
+}
+
+.suggestions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.suggestions__icon {
+  width: 110px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.suggestions__icon i {
+  font-size: 32px;
+  padding: 5px;
+  background-color: var(--yellow);
+  border-radius: 7px;
+  color: white;
+}
+
+.suggestions__more {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+  padding-top: 10px;
+}
