@@ -1,0 +1,36 @@
+.settings-list {
+  margin: 15px 0px;
+}
+
+.settings-setting {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings-setting:last-child {
+  border-bottom: none;
+}
+
+.settings-setting__left i {
+  margin-right: 25px;
+}
+
+.settings-setting__left {
+  font-size: 21px;
+  margin: 0px 10px;
+  font-weight: 300;
+}
+
+.settings-setting__right {
+  font-size: 18px;
+  color: var(--grey);
+  font-weight: 300;
+}
+
+.divide {
+  width: auto;
+  opacity: 0.5;
+}
