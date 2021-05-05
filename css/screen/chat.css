@@ -1,0 +1,147 @@
+#chat-screen {
+  background-color: #abc1d1;
+}
+
+#chat-screen .status-bar,
+#chat-screen .alt-header {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #abc1d1;
+  top: 0;
+}
+
+#chat-screen .status-bar {
+  z-index: 2;
+}
+
+#chat-screen .alt-header {
+  z-index: 1;
+}
+
+.main-chat {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat__timestamp {
+  font-size: 14px;
+  color: white;
+  background-color: #92a4b2;
+  padding: 8px 12px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.message-row {
+  width: 100%;
+  display: flex;
+  margin: 10px 0px;
+}
+
+.message-row img {
+  width: 60px;
+  height: 60px;
+  border-radius: 26px;
+  margin-right: 5px;
+}
+
+.message__author {
+  opacity: 0.7;
+  display: block;
+  margin: 3px 0px;
+  font-size: 17px;
+}
+
+.message__bubble {
+  display: block;
+  background-color: white;
+  padding: 13px;
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+  margin: 3px 0px;
+}
+
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__time {
+  opacity: 0.6;
+  font-size: 14px;
+  margin: 0px 5px;
+}
+
+.message-row__own {
+  justify-content: flex-end;
+}
+
+.message-row__own .message__bubble {
+  background-color: var(--yellow);
+  border-top-right-radius: 0px;
+  border-top-left-radius: 20px;
+}
+
+.message-row__own .message__info {
+  flex-direction: row-reverse;
+}
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+  box-sizing: border-box;
+}
+
+.reply .reply__column:first-child {
+  width: 10%;
+}
+
+.reply .reply__column:last-child {
+  width: 90%;
+  position: relative;
+}
+
+.reply input {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 25px;
+  border: var(--main-border);
+}
+
+.reply__column:first-child > i {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.reply__column:last-child > i {
+  position: absolute;
+  right: 50px;
+  bottom: 6px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.reply__column:last-child > button {
+  position: absolute;
+  right: -4px;
+  bottom: 2px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: var(--yellow);
+  border: none;
+}
+
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
+}

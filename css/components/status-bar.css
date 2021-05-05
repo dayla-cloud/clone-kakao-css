@@ -32,3 +32,19 @@
 .status-bar__column i {
   padding-left: 5px;
 }
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 25px;
+  box-sizing: border-box;
+}
+
+.reply input {
+  height: 20px;
+}

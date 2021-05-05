@@ -19,8 +19,20 @@
   color: inherit;
 }
 
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: none;
+  }
+}
 .nav__notification {
   position: absolute;
   left: 20px;
   bottom: 15px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
